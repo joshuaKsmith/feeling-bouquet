@@ -1,0 +1,202 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Peony",
+            "color": "Yurple"
+        },
+        {
+            "id": 2,
+            "commonName": "Rose",
+            "color": "Lavender"
+        },
+        {
+            "id": 3,
+            "commonName": "Violet",
+            "color": "Orange"
+        },
+        {
+            "id": 4,
+            "commonName": "Lily",
+            "color": "Brown"
+        },
+        {
+            "id": 5,
+            "commonName": "Sunflower",
+            "color": "Blue"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Flower Spitoon",
+            "city": "Oakville",
+            "state": "California"
+        },
+        {
+            "id": 2,
+            "name": "Flowermobile Deluxe",
+            "city": "Columbia",
+            "state": "Maryland"
+        },
+        {
+            "id": 3,
+            "name": "Our Best Roots",
+            "city": "Waldorf",
+            "state": "Virginia"
+        },
+        {
+            "id": 4,
+            "name": "Til the End of Time",
+            "city": "Lakeland",
+            "state": "Montana"
+        },
+        {
+            "id": 5,
+            "name": "Another Flower Nursery",
+            "city": "Carson City",
+            "state": "Nevada"
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Final Countdown",
+            "city": "Burton",
+            "state": "Indiana"
+        },
+        {
+            "id": 2,
+            "name": "Rogers Distribution",
+            "city": "Lindsay",
+            "state": "Oklahoma"
+        },
+        {
+            "id": 3,
+            "name": "Hawthorne Inc",
+            "city": "Arlington",
+            "state": "Texas"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Argon Shoppe",
+            "city": "Arlington",
+            "state": "Texas",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Another Flower Retailer",
+            "city": "Viceland",
+            "state": "Georgia",
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "name": "One More Retailer",
+            "city": "Oshea",
+            "state": "Kentucky",
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "name": "Flower Guys Inc",
+            "city": "Lexington",
+            "state": "Kentucky",
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "name": "Victory Stores and More",
+            "city": "Gary",
+            "state": "Indiana",
+            "distributorId": 1
+        }
+    ],
+    "flowerDisplays": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 4
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 1
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 4
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 1
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 3
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 5
+        }
+    ],
+    "nurseryDistributions": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 3,
+            "distributorId": 2,
+            "nurseryId": 2
+        },
+        {
+            "id": 4,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 5,
+            "distributorId": 3,
+            "nurseryId": 4
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 5
+        }
+    ]
+}

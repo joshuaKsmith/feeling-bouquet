@@ -1,0 +1,48 @@
+Table retailers {
+    id int [pk]
+    name varchar
+    city varchar
+    state varchar
+    address varchar
+    distributorId int
+}
+
+Table distributors {
+    id int [pk]
+    name varchar
+    city varchar
+    state varchar
+    address varchar
+}
+
+Table nurseries {
+    id int [pk]
+    name varchar
+    city varchar
+    state varchar
+    address varchar
+}
+
+Table flowers {
+    id int [pk]
+    commonName varchar
+    color varchar
+}
+
+Table flowerDisplay {
+    id int [pk]
+    flowerId int
+    nurseryId int
+}
+
+Table nurseryDistributions {
+    id int [pk]
+    distributorId int
+    nurseryId int
+}
+
+ref: distributors.id < retailers.distributorId
+ref: distributors.id < nurseryDistributions.distributorId
+ref: nurseries.id < nurseryDistributions.nurseryId
+ref: nurseries.id < flowerDisplay.nurseryId
+ref: flowers.id < flowerDisplay.flowerId
